@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: matinreg.luxota.org/nginabc
+    ports: 
+      - "8080:80"
+
+  phpfpmvv:
+    image: matinreg.luxota.org/myphpfpm:latest

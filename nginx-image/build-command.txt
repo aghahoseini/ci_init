@@ -1,0 +1,7 @@
+docker images | grep nginw
+
+docker image rm -f nginw
+
+docker build -t nginw .
+
+docker build -t matinreg.luxota.org/nginabc .

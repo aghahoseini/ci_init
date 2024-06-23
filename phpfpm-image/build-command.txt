@@ -1,0 +1,5 @@
+docker images | grep phpfpm79
+
+docker image rm -f phpfpm79
+
+docker build -t phpfpm79 .

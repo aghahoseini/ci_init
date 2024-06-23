@@ -1,0 +1,16 @@
+{
+        "autoload": {
+        "psr-4": {
+            
+
+            "ye_chize_alaki\\": "class-list/class1/"
+
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2"
+    },
+    "require": {
+        "nubs/random-name-generator": "^2.2"
+    }
+}
